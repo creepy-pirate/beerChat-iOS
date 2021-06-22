@@ -31,15 +31,6 @@
                                     <segue destination="5v2-hE-4Ub" kind="show" id="dbj-Uc-obP"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="🍺BeerChat" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="y7D-jv-BlJ" customClass="CLTypingLabel" customModule="CLTypingLabel">
-                                <rect key="frame" x="52" y="418" width="310" height="60"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="60" id="ph1-wX-D3a"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" type="system" weight="black" pointSize="50"/>
-                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="h2x-tz-C9Y">
                                 <rect key="frame" x="0.0" y="745" width="414" height="48"/>
                                 <color key="backgroundColor" red="0.80000001190000003" green="0.52549022440000004" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -55,13 +46,30 @@
                                     <segue destination="BYZ-38-t0r" kind="show" id="qij-EH-gyt"/>
                                 </connections>
                             </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Orange Brown Brewery Craft Beer Logo (3)" translatesAutoresizingMaskIntoConstraints="NO" id="RPh-UA-ad8">
+                                <rect key="frame" x="55" y="324" width="304" height="284"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="🍺BeerChat" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="y7D-jv-BlJ" customClass="CLTypingLabel" customModule="CLTypingLabel">
+                                <rect key="frame" x="59" y="156" width="297" height="60"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="60" id="ph1-wX-D3a"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" weight="black" pointSize="50"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="w0w-hE-MVy"/>
                         <color key="backgroundColor" red="0.14901960780000001" green="0.1176470588" blue="0.098039215690000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <constraints>
                             <constraint firstItem="dWe-nW-2HB" firstAttribute="trailing" secondItem="w0w-hE-MVy" secondAttribute="trailing" id="7Vx-Xq-VaO"/>
                             <constraint firstItem="dWe-nW-2HB" firstAttribute="leading" secondItem="w0w-hE-MVy" secondAttribute="leading" id="Ag7-Hh-D9X"/>
+                            <constraint firstItem="y7D-jv-BlJ" firstAttribute="leading" secondItem="w0w-hE-MVy" secondAttribute="leading" constant="59" id="Ieo-y3-bk7"/>
                             <constraint firstItem="y7D-jv-BlJ" firstAttribute="centerY" secondItem="H86-OM-sMN" secondAttribute="centerY" id="Ipj-e5-54T"/>
+                            <constraint firstItem="w0w-hE-MVy" firstAttribute="bottom" secondItem="y7D-jv-BlJ" secondAttribute="bottom" constant="635" id="Pl2-DM-g79"/>
+                            <constraint firstItem="w0w-hE-MVy" firstAttribute="trailing" secondItem="y7D-jv-BlJ" secondAttribute="trailing" constant="58" id="QEh-1I-ogM"/>
+                            <constraint firstItem="y7D-jv-BlJ" firstAttribute="top" secondItem="w0w-hE-MVy" secondAttribute="top" constant="79" id="Y99-v4-cLF"/>
                             <constraint firstItem="dWe-nW-2HB" firstAttribute="bottom" secondItem="w0w-hE-MVy" secondAttribute="bottom" id="ZsM-5p-lNb"/>
                             <constraint firstItem="dWe-nW-2HB" firstAttribute="top" secondItem="h2x-tz-C9Y" secondAttribute="bottom" constant="8" id="cnI-Zh-aEc"/>
                             <constraint firstItem="w0w-hE-MVy" firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="y7D-jv-BlJ" secondAttribute="trailing" id="eaW-iX-nU1"/>
@@ -156,12 +164,6 @@
                                     <constraint firstAttribute="trailing" secondItem="jY9-l3-E1g" secondAttribute="trailing" id="y40-C4-FjS"/>
                                 </constraints>
                             </view>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="🍺Beerchat" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IOp-zO-J1d">
-                                <rect key="frame" x="136" y="806" width="143" height="24"/>
-                                <fontDescription key="fontDescription" type="system" weight="black" pointSize="20"/>
-                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="6549-removebg-preview" translatesAutoresizingMaskIntoConstraints="NO" id="eA2-m7-Eah">
                                 <rect key="frame" x="55" y="414" width="318" height="235"/>
                                 <constraints>
@@ -169,23 +171,28 @@
                                     <constraint firstAttribute="height" constant="235" id="yUm-Cb-DlU"/>
                                 </constraints>
                             </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="  🍺Beerchat" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IOp-zO-J1d">
+                                <rect key="frame" x="143" y="799" width="128" height="24"/>
+                                <fontDescription key="fontDescription" type="system" weight="black" pointSize="20"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="stz-qy-NwU"/>
                         <color key="backgroundColor" red="0.14901960780000001" green="0.1176470588" blue="0.098039215690000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <constraints>
-                            <constraint firstItem="IOp-zO-J1d" firstAttribute="top" secondItem="eA2-m7-Eah" secondAttribute="bottom" constant="157" id="08e-PW-6Pi"/>
                             <constraint firstItem="Scg-da-zi8" firstAttribute="trailing" secondItem="stz-qy-NwU" secondAttribute="trailing" id="3Fk-Xo-DV8"/>
-                            <constraint firstItem="IOp-zO-J1d" firstAttribute="top" secondItem="stz-qy-NwU" secondAttribute="top" constant="718" id="5JO-Tg-sLY"/>
                             <constraint firstItem="eA2-m7-Eah" firstAttribute="top" secondItem="j5s-Lc-WfT" secondAttribute="bottom" constant="72" id="J5o-UI-oOt"/>
+                            <constraint firstItem="stz-qy-NwU" firstAttribute="bottom" secondItem="IOp-zO-J1d" secondAttribute="bottom" constant="39" id="ONJ-2K-3pV"/>
                             <constraint firstItem="j5s-Lc-WfT" firstAttribute="trailing" secondItem="stz-qy-NwU" secondAttribute="trailing" id="Tq9-EG-2wo"/>
                             <constraint firstItem="Scg-da-zi8" firstAttribute="leading" secondItem="stz-qy-NwU" secondAttribute="leading" id="Ub1-7q-3QS"/>
                             <constraint firstItem="eA2-m7-Eah" firstAttribute="leading" secondItem="h2S-Ae-zdW" secondAttribute="leadingMargin" constant="35" id="UkY-R1-3mj"/>
+                            <constraint firstItem="IOp-zO-J1d" firstAttribute="leading" secondItem="stz-qy-NwU" secondAttribute="leading" constant="143" id="Uxp-Jb-9jN"/>
                             <constraint firstItem="stz-qy-NwU" firstAttribute="trailing" secondItem="eA2-m7-Eah" secondAttribute="trailing" constant="41" id="gYu-Se-Ahd"/>
-                            <constraint firstItem="IOp-zO-J1d" firstAttribute="leading" secondItem="h2S-Ae-zdW" secondAttribute="leadingMargin" constant="116" id="ggS-g4-QZU"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="IOp-zO-J1d" secondAttribute="trailing" constant="115" id="kEy-NI-4IS"/>
                             <constraint firstItem="Scg-da-zi8" firstAttribute="top" secondItem="stz-qy-NwU" secondAttribute="top" id="oh4-tH-9d1"/>
-                            <constraint firstAttribute="bottomMargin" secondItem="IOp-zO-J1d" secondAttribute="bottom" constant="32" id="qYM-VS-TPM"/>
                             <constraint firstItem="j5s-Lc-WfT" firstAttribute="leading" secondItem="stz-qy-NwU" secondAttribute="leading" id="uog-qO-Id1"/>
+                            <constraint firstItem="stz-qy-NwU" firstAttribute="trailing" secondItem="IOp-zO-J1d" secondAttribute="trailing" constant="143" id="uve-2f-HEM"/>
+                            <constraint firstItem="IOp-zO-J1d" firstAttribute="top" secondItem="eA2-m7-Eah" secondAttribute="bottom" constant="150" id="wfe-iw-DrF"/>
                             <constraint firstItem="j5s-Lc-WfT" firstAttribute="top" secondItem="Scg-da-zi8" secondAttribute="bottom" constant="-100" id="wib-t6-dnB"/>
                         </constraints>
                     </view>
@@ -272,31 +279,31 @@
                                     <constraint firstItem="mZe-tG-Gm8" firstAttribute="leading" secondItem="7JT-7R-lw4" secondAttribute="leading" id="scf-xJ-Rnr"/>
                                 </constraints>
                             </view>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="26725-removebg-preview" translatesAutoresizingMaskIntoConstraints="NO" id="9hq-5P-YX2">
+                                <rect key="frame" x="62" y="434" width="291" height="231"/>
+                            </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="🍺Beerchat" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HIs-xH-hpD">
-                                <rect key="frame" x="136" y="804" width="143" height="24"/>
+                                <rect key="frame" x="149" y="800" width="117" height="24"/>
                                 <fontDescription key="fontDescription" type="system" weight="black" pointSize="20"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="26725-removebg-preview" translatesAutoresizingMaskIntoConstraints="NO" id="9hq-5P-YX2">
-                                <rect key="frame" x="62" y="418" width="291" height="231"/>
-                            </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="ibK-5F-w36"/>
                         <color key="backgroundColor" red="0.14901960780000001" green="0.1176470588" blue="0.098039215690000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <constraints>
-                            <constraint firstItem="HIs-xH-hpD" firstAttribute="top" secondItem="NR3-PA-yDz" secondAttribute="topMargin" constant="716" id="1HR-px-Kes"/>
                             <constraint firstItem="Mkq-A4-A98" firstAttribute="leading" secondItem="ibK-5F-w36" secondAttribute="leading" id="2C5-yn-42W"/>
                             <constraint firstAttribute="trailingMargin" secondItem="9hq-5P-YX2" secondAttribute="trailing" constant="41" id="8xL-KO-vaB"/>
+                            <constraint firstItem="HIs-xH-hpD" firstAttribute="leading" secondItem="ibK-5F-w36" secondAttribute="leading" constant="149" id="9cf-k5-UQt"/>
                             <constraint firstItem="9hq-5P-YX2" firstAttribute="leading" secondItem="ibK-5F-w36" secondAttribute="leading" constant="62" id="BBf-bY-K9Z"/>
+                            <constraint firstItem="HIs-xH-hpD" firstAttribute="top" secondItem="9hq-5P-YX2" secondAttribute="bottom" constant="135" id="Bpd-pv-ogL"/>
                             <constraint firstAttribute="bottomMargin" secondItem="9hq-5P-YX2" secondAttribute="bottom" constant="197" id="FLt-3G-pVU"/>
                             <constraint firstItem="Mkq-A4-A98" firstAttribute="top" secondItem="ibK-5F-w36" secondAttribute="top" id="HHp-L5-4dK"/>
-                            <constraint firstItem="HIs-xH-hpD" firstAttribute="leading" secondItem="ibK-5F-w36" secondAttribute="leading" constant="136" id="MjX-l0-Z7A"/>
-                            <constraint firstItem="ibK-5F-w36" firstAttribute="bottom" secondItem="HIs-xH-hpD" secondAttribute="bottom" constant="34" id="UIb-cf-U0k"/>
-                            <constraint firstItem="ibK-5F-w36" firstAttribute="trailing" secondItem="HIs-xH-hpD" secondAttribute="trailing" constant="135" id="ZnB-Bj-wXW"/>
+                            <constraint firstItem="ibK-5F-w36" firstAttribute="bottom" secondItem="HIs-xH-hpD" secondAttribute="bottom" constant="38" id="QMX-lU-1IF"/>
                             <constraint firstItem="Mkq-A4-A98" firstAttribute="trailing" secondItem="ibK-5F-w36" secondAttribute="trailing" id="b5A-nE-cpV"/>
                             <constraint firstItem="7JT-7R-lw4" firstAttribute="leading" secondItem="ibK-5F-w36" secondAttribute="leading" id="dag-ZR-y4c"/>
                             <constraint firstItem="7JT-7R-lw4" firstAttribute="trailing" secondItem="ibK-5F-w36" secondAttribute="trailing" id="mpt-SH-Lld"/>
+                            <constraint firstItem="ibK-5F-w36" firstAttribute="trailing" secondItem="HIs-xH-hpD" secondAttribute="trailing" constant="148" id="sIl-PQ-Rqp"/>
                             <constraint firstItem="9hq-5P-YX2" firstAttribute="top" secondItem="NR3-PA-yDz" secondAttribute="topMargin" constant="346" id="wpe-Lj-oZq"/>
                             <constraint firstItem="7JT-7R-lw4" firstAttribute="top" secondItem="Mkq-A4-A98" secondAttribute="bottom" constant="-100" id="yL0-RW-8ad"/>
                         </constraints>
@@ -332,7 +339,7 @@
                                         <constraints>
                                             <constraint firstAttribute="height" constant="40" id="POz-11-5A0"/>
                                         </constraints>
-                                        <color key="textColor" name="BrandPurple"/>
+                                        <color key="textColor" red="0.98080319166183472" green="0.48989313840866089" blue="0.035856302827596664" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits"/>
                                     </textField>
@@ -426,6 +433,7 @@
     <resources>
         <image name="26725-removebg-preview" width="578" height="432"/>
         <image name="6549-removebg-preview" width="617" height="404"/>
+        <image name="Orange Brown Brewery Craft Beer Logo (3)" width="500" height="500"/>
         <image name="paperplane.fill" catalog="system" width="128" height="118"/>
         <image name="textfield" width="298" height="93"/>
         <namedColor name="BrandLightBlue">
@@ -433,9 +441,6 @@
         </namedColor>
         <namedColor name="BrandLightPurple">
             <color red="0.98000001907348633" green="0.9649999737739563" blue="0.99599999189376831" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-        </namedColor>
-        <namedColor name="BrandPurple">
-            <color red="0.67500001192092896" green="0.43500000238418579" blue="0.9179999828338623" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </namedColor>
     </resources>
 </document>
