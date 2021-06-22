@@ -20,11 +20,20 @@
                     <stackView opaque="NO" contentMode="scaleToFill" alignment="top" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="CnC-OV-Q1A">
                         <rect key="frame" x="10" y="10" width="361" height="48"/>
                         <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="YouAvatar" translatesAutoresizingMaskIntoConstraints="NO" id="JEI-AE-tbj">
+                                <rect key="frame" x="0.0" y="0.0" width="40" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="50" id="DRm-Gm-mAr"/>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="40" id="Mnr-Fh-62e"/>
+                                    <constraint firstAttribute="width" constant="40" id="TyY-j3-EGB"/>
+                                    <constraint firstAttribute="height" constant="40" id="VFy-hf-ZWg"/>
+                                </constraints>
+                            </imageView>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="fyR-xQ-wNH">
-                                <rect key="frame" x="0.0" y="0.0" width="301" height="48"/>
+                                <rect key="frame" x="60" y="0.0" width="241" height="48"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Oae-eu-gCG">
-                                        <rect key="frame" x="10" y="10" width="281" height="28"/>
+                                        <rect key="frame" x="10" y="10" width="221" height="28"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <nil key="highlightedColor"/>
                                     </label>
@@ -59,6 +68,7 @@
             <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
             <connections>
                 <outlet property="label" destination="Oae-eu-gCG" id="DdB-uB-EKT"/>
+                <outlet property="leftImageView" destination="JEI-AE-tbj" id="KEG-Ga-P7v"/>
                 <outlet property="messageBubble" destination="fyR-xQ-wNH" id="5jT-Ih-ouk"/>
                 <outlet property="rightImageView" destination="Cxn-iH-EQU" id="sJc-j5-ZlO"/>
             </connections>
@@ -67,5 +77,6 @@
     </objects>
     <resources>
         <image name="MeAvatar" width="36" height="36"/>
+        <image name="YouAvatar" width="36" height="36"/>
     </resources>
 </document>
